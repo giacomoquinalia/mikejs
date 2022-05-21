@@ -90,8 +90,13 @@ class Amixer {
       throw new Error(stderr)
     }
   }
+
+  async toggle() {
+    const muted = await this.isMuted()
+    await this.setMuted(!muted)
+  }
 }
 
 export default {
-    impl: new Amixer()
+  impl: new Amixer()
 }
