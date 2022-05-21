@@ -1,5 +1,5 @@
 {
-  "name": "louder",
+  "name": "@giacomoquinalia/mikejs",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,9 +9,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "description": "",
+  "author": "giacomo.quinalia@gmail.com",
+  "description": "A lib to manage microphone and audio",
   "dependencies": {
     "execa": "^6.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giacomoquinalia/mikejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giacomoquinalia/mikejs/issues"
+  },
+  "homepage": "https://github.com/giacomoquinalia/mikejs#readme"
 }
